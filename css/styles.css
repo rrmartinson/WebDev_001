@@ -27,10 +27,27 @@ b {
     font-weight: 800;
 }
 
+/* navigation styling*/
+/* fixes checkbox nav glitch*/
+body {
+    -webkit-animation: bugfix infinite 1s;
+}
+@-webkit-keyframes bugfix {
+    from {
+        padding: 0;
+    }
+
+    to {
+        padding: 0;
+    }
+}
+
+/* header styling*/
 .header {
   height: 22vh;
   background-color:  yellow;
 }
+/* main styling*/
 .main {
     height: 40vh;
     background-color:  rgb(87, 153, 153);
