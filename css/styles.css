@@ -45,11 +45,11 @@ body {
 /* header styling*/
 .header {
   height: 22vh;
-  background-color:  yellow;
+  background-color:  rgb(168, 232, 235);
 }
 /* main styling*/
 .main {
     height: 40vh;
-    background-color:  rgb(87, 153, 153);
+    background-color:  rgb(28, 235, 235);
     color: blue;
-  }
+}
