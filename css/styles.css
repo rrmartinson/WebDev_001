@@ -1,0 +1,38 @@
+/* text responsiveness*/
+html {
+    font-size: calc(0.5rem + 2.5vmin);
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: .9em;
+}
+
+h5 {
+    font-size: .7em;
+}
+
+p {
+    font-size: .6em;
+}
+
+b {
+    font-weight: 800;
+}
+
+.header {
+  height: 22vh;
+  background-color:  yellow;
+}
+.main {
+    height: 40vh;
+    background-color:  rgb(87, 153, 153);
+    color: blue;
+  }
